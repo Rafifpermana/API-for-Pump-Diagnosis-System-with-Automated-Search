@@ -1,0 +1,33 @@
+﻿No.;Variabel;Keterangan
+1;R1;Kavitasi
+2;R2;Korosi
+3;R3;Keausan
+4;R4;Deformasi
+5;R5;Pecah
+6;R6;Getaran Tinggi
+7;R7;Patah
+8;R8;Defleksi
+9;R9;Torsi Berlebih
+10;R10;Kebocoran
+11;R11;Retak
+12;R12;Erosi
+13;R13;Endapan Pasir
+14;R14;Ketidakselarasan (Misalignment)
+15;R15;Kelonggaran (Looseness)
+16;R16;Ketidakseimbangan
+17;R17;Suara Bising
+18;R18;Kerusakan Pegas
+19;R19;Robek
+20;R20;Degradasi
+21;R21;Macet
+22;R22;Kegagalan Pelumasan
+23;R23;Kekurangan Pelumasan
+24;R24;Kegagalan Motor
+25;R25;Overheating
+26;R26;Kerusakan Listrik
+27;R27;Kegagalan Kontrol
+28;R28;Kegagalan Pengaturan
+29;R29;Kerusakan Sensor
+30;R30;Adhesi
+31;R31;Malfungsi
+32;R32;Suara Tidak Normal

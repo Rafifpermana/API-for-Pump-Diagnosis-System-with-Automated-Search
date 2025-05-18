@@ -1,0 +1,33 @@
+﻿No.;Variabel;Keterangan
+1;P1;Tekanan Rendah
+2;P2;Tekanan Berlebih
+3;P3;Partikel Abrasif
+4;P4;Operasi Pada Suhu Tinggi
+5;P5;Pelumasan Tidak Memadai
+6;P6;Ketidaksejajaran (Misalignment)
+7;P7;Overload
+8;P8;Material Tidak Sesuai
+9;P9;Operasi Melebihi Batas
+10;P10;Endapan Pada Impeller
+11;P11;Fluida Terkontaminasi
+12;P12;Desain Pipa Tidak Sesuai
+13;P13;Fluida Mengandung Pasir
+14;P14;Pemasangan Tidak Tepat
+15;P15;Getaran Berlebih
+16;P16;Pondasi Tidak Stabil
+17;P17;Kerusakan Komponen (bearing)
+18;P18;Mengalami Kavitasi
+19;P19;Pengoperasian Terus-Menerus
+20;P20;Fluida Korosif
+21;P21;Penumpukan Kotoran
+22;P22;Kelelahan Material
+23;P23;Kebocoran Sistem Pelumasan
+24;P24;Beban Berlebih
+25;P25;Instalasi Tidak Tepat
+26;P26;Penggunaan Berlebihan
+27;P27;Terkontaminasi
+28;P28;Tegangan Tidak Stabil
+29;P29;Gangguan Sinyal
+30;P30;Kesalahan Pemrograman
+31;P31;Waktu Henti Yang Lama
+32;P32;Paparan Bahan Kimia
