@@ -219,5 +219,35 @@ async def diagnosa(request: DiagnosaRequest):
         logger.error(f"Error: {str(e)}", exc_info=True)
         raise HTTPException(500, detail="Terjadi kesalahan internal")
 
+@app.get("/")
+def read_root():
+    """Root endpoint for testing API connectivity"""
+    return {
+        "status": "success",
+        "message": "Sistem Diagnosa Kerusakan Pompa API is running",
+        "endpoints": [
+            {"method": "GET", "path": "/", "description": "This endpoint"},
+            {"method": "GET", "path": "/gejala", "description": "List all gejala/symptoms"},
+            {"method": "GET", "path": "/komponen", "description": "List all komponen/components"},
+            {"method": "GET", "path": "/jenis-pompa", "description": "List all pump types"},
+            {"method": "POST", "path": "/diagnosa", "description": "Diagnose pump issues from symptoms"}
+        ]
+    }
+
+@app.get("/data")
+def get_data():
+    """Endpoint that returns all available data"""
+    return {
+        "gejala": data_store.diagnosa,
+        "komponen": data_store.komponen,
+        "jenis_pompa": data_store.jenis_pompa,
+        "penyebab": data_store.penyebab,
+        "solusi": data_store.solusi,
+        "total_rules": len(data_store.aturan)
+    }
+
+# Update the if __name__ == "__main__" block in main.py with:
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # Get port from environment variable or use default
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
